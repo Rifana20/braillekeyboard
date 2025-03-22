@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Braille Keyboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Braille Keyboard to Text</h1>
+
+    <div id="braille-keyboard">
+        <!-- Braille Letters (A-Z) -->
+        <button class="braille" data-letter="A">⠁</button>
+        <button class="braille" data-letter="B">⠃</button>
+        <button class="braille" data-letter="C">⠉</button>
+        <button class="braille" data-letter="D">⠙</button>
+        <button class="braille" data-letter="E">⠑</button>
+        <button class="braille" data-letter="F">⠋</button>
+        <button class="braille" data-letter="G">⠛</button>
+        <button class="braille" data-letter="H">⠓</button>
+        <button class="braille" data-letter="I">⠊</button>
+        <button class="braille" data-letter="J">⠚</button>
+        <button class="braille" data-letter="K">⠅</button>
+        <button class="braille" data-letter="L">⠇</button>
+        <button class="braille" data-letter="M">⠍</button>
+        <button class="braille" data-letter="N">⠝</button>
+        <button class="braille" data-letter="O">⠕</button>
+        <button class="braille" data-letter="P">⠏</button>
+        <button class="braille" data-letter="Q">⠟</button>
+        <button class="braille" data-letter="R">⠗</button>
+        <button class="braille" data-letter="S">⠎</button>
+        <button class="braille" data-letter="T">⠞</button>
+        <button class="braille" data-letter="U">⠥</button>
+        <button class="braille" data-letter="V">⠧</button>
+        <button class="braille" data-letter="W">⠺</button>
+        <button class="braille" data-letter="X">⠭</button>
+        <button class="braille" data-letter="Y">⠽</button>
+        <button class="braille" data-letter="Z">⠵</button>
+
+        <br><br>
+
+        <!-- Braille Numbers (0-9) -->
+        <button class="braille" data-letter="1">⠼⠁</button>
+        <button class="braille" data-letter="2">⠼⠃</button>
+        <button class="braille" data-letter="3">⠼⠉</button>
+        <button class="braille" data-letter="4">⠼⠙</button>
+        <button class="braille" data-letter="5">⠼⠑</button>
+        <button class="braille" data-letter="6">⠼⠋</button>
+        <button class="braille" data-letter="7">⠼⠛</button>
+        <button class="braille" data-letter="8">⠼⠓</button>
+        <button class="braille" data-letter="9">⠼⠊</button>
+        <button class="braille" data-letter="0">⠼⠚</button>
+    </div>
+
+    <textarea id="output-text" placeholder="Converted text will appear here..." readonly></textarea>
+    
+    <button id="clear-btn">Clear</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
