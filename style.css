@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+#braille-keyboard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.braille {
+    font-size: 24px;
+    padding: 15px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border: 2px solid black;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.braille:hover {
+    background-color: lightgray;
+}
+
+#output-text {
+    display: block;
+    width: 80%;
+    height: 100px;
+    margin: 20px auto;
+    font-size: 18px;
+    padding: 10px;
+}
+
+#clear-btn {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#clear-btn:hover {
+    background-color: darkred;
+}
