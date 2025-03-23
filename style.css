@@ -1,56 +1,73 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    margin: 20px;
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
 }
 
 #braille-keyboard {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 10px;
-    margin-top: 20px;
+    gap: 8px;
     max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
+}
+
+button {
+    font-size: 18px;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
 }
 
 .braille {
-    font-size: 24px;
-    padding: 15px;
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    border: 2px solid black;
-    cursor: pointer;
-    background-color: white;
-    border-radius: 10px;
+    background-color: #007bff;
+    color: white;
 }
 
 .braille:hover {
-    background-color: lightgray;
+    background-color: #0056b3;
 }
 
-#output-text {
-    display: block;
-    width: 80%;
-    height: 100px;
-    margin: 20px auto;
-    font-size: 18px;
-    padding: 10px;
+#space-btn, #backspace-btn {
+    background-color: #28a745;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    margin: 10px;
+}
+
+#space-btn:hover, #backspace-btn:hover {
+    background-color: #218838;
 }
 
 #clear-btn {
-    font-size: 18px;
-    padding: 10px 20px;
-    margin-top: 10px;
-    cursor: pointer;
-    background-color: red;
+    background-color: #dc3545;
     color: white;
-    border: none;
-    border-radius: 5px;
+    padding: 12px 20px;
+    font-size: 16px;
+    margin: 10px;
 }
 
 #clear-btn:hover {
-    background-color: darkred;
+    background-color: #c82333;
+}
+
+textarea {
+    width: 90%;
+    max-width: 600px;
+    height: 100px;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    resize: none;
 }
